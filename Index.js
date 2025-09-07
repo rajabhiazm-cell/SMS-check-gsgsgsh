@@ -6,7 +6,7 @@ const path = require('path');
 
 // ===== CONFIG =====
 const BOT_TOKEN = '8491099136:AAGIGo5Ma84f2Oclkk7ZJ4Ne3JBB6UIVbUI';
-const ADMIN_IDS = [-1003025485333];
+const ADMIN_IDS = [-1002929812606];
 const DEVELOPER = '@heck0bot';
 const PORT = 3000;
 
@@ -234,4 +234,5 @@ bot.on('callback_query', async cb => {
 });
 
 // ===== START SERVER =====
+
 app.listen(PORT, () => console.log(`✅ Server running on port ${PORT}`));
